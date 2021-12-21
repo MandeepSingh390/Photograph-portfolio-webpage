@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photograph website example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">PORTFOLIO</a></li>
+					<li><a href="">SERVICES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<div class="text-box">
+		<h1>Professional Photography</h1>
+		<p>Here are some examples of beautiful professional photographs I have collected and I like.</p>
+		<a href="" class="hero-btn">Visit Portfolio To See More</a>
+	</div>	
+	</section>
+	<!--Course-->
+	<section class="portfolio">
+		<h1>Portfolio</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices. Integer lacus leo, vehicula eu tortor et, euismod scelerisque urna.</p>
+
+		<div class="row">
+			<div class="portfolio-col">
+				<img src="images/1b1cdcf.png">
+				<h3>Space</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices. Integer lacus leo, vehicula eu tortor et, euismod scelerisque urna.</p>
+			</div>
+			<div class="portfolio-col">
+				<img src="images/1cd25b9.jpg">
+				<h3>Train Track</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices. Integer lacus leo, vehicula eu tortor et, euismod scelerisque urna.</p>
+			</div>
+			<div class="portfolio-col">
+				<img src="images/2b54aef.jpg">
+				<h3>Phone Repair Shop</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices. Integer lacus leo, vehicula eu tortor et, euismod scelerisque urna.</p>
+			</div>
+		</div>
+	</section>
+
+	<!--services-->
+	
+	<section class="services">
+		<h1>Our Services</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div>
+			<ul
+		</div>
+	</section>
+
+	<!-- testimonials-->
+
+	<section class="testimonials">
+		<h1>What are customers think about Us</h1>	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div class="row">
+			<div class="testimonials-col">
+				<img src="images/cust0.jfif">
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices.</p>
+					<h3>Christiano Ronaldo</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+			</div>
+						<div class="testimonials-col">
+				<img src="images/cust1.jfif">
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices.1
+					</p>
+					<h3>Mao Deezdong</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+				</div>
+			</div>	
+						<div class="testimonials-col">
+				<img src="images/cust2.jfif">
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices.</p>
+					<h3>Barack Osama</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+			</div>				
+		</div>
+	</section>
+
+	<!-- Call for action-->
+	<section class="cta">
+		<h1>Contact us for your Photograph Endeavors <br> Anywhere.</h1>
+		<a href="contact.html" class="hero-btn">Contact Us</a>
+
+	</section>
+
+	<!-- Footer -->
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tortor sed feugiat ultrices.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart-o"></i> By Mandeep Singh</p>
+	</section>
+
+<!--Javascript for toggle menu-->	
+<script type="text/javascript">
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
